@@ -1,0 +1,150 @@
+
+body
+  background-color: rgb(185,180,150)
+  height: 100%
+  width: 100%
+#board
+  background-color: rgb(150,140,120)
+  height: 594px
+  width: 594px
+  border-radius: 297px
+  box-sizing: border-box
+  
+  @media screen and (max-width: 600px) 
+    height: 494px
+    width: 494px
+    border-radius: 247px
+  @media screen and (max-width: 500px) 
+    height: 394px
+    width: 394px
+    border-radius: 197px
+  @media screen and (max-width: 400px) 
+    height: 294px
+    width: 294px
+    border-radius: 157px
+  
+#black
+  display: inline-block
+  background-color: rgb(35,30,0)
+  height: 247px
+  width: 247px
+  border-radius: 297px 0px 0px 0px
+  box-sizing: border-box
+  position: relative
+  left: 35px
+  top: 30px
+  cursor: pointer
+  @media screen and (max-width: 600px) 
+    height: 197px
+    width: 197px
+    border-radius: 247px 0px 0px 0px
+  @media screen and (max-width: 500px) 
+    height: 147px
+    width: 147px
+    border-radius: 197px 0px 0px 0px
+  @media screen and (max-width: 400px) 
+    height: 97px
+    width: 97px
+    border-radius: 147px 0px 0px 0px
+
+#white
+  display: inline-block
+  background-color: rgb(230,230,220)
+  height: 247px
+  width: 247px
+  border-radius: 0px 297px 0px 0px
+  box-sizing: border-box
+  position: relative
+  left: 60px
+  top: 30px
+  cursor: pointer
+  @media screen and (max-width: 600px) 
+    height: 197px
+    width: 197px
+    border-radius: 0px 247px 0px 0px
+  @media screen and (max-width: 500px) 
+    height: 147px
+    width: 147px
+    border-radius: 0px 197px 0px 0px
+  @media screen and (max-width: 400px) 
+    height: 97px
+    width: 97px
+    border-radius: 0px 157px 0px 0px
+
+#gray
+  display: inline-block
+  background-color: rgb(230,230,170)
+  height: 247px
+  width: 247px
+  border-radius: 0px 0px 0px 297px
+  box-sizing: border-box
+  position: relative
+  left: 35px
+  top: 55px
+  cursor: pointer
+  @media screen and (max-width: 600px) 
+    height: 197px
+    width: 197px
+    border-radius: 0px 0px 0px 247px
+  @media screen and (max-width: 500px) 
+    height: 147px
+    width: 147px
+    border-radius: 0px 0px 0px 197px
+  @media screen and (max-width: 400px) 
+    height: 97px
+    width: 97px
+    border-radius: 0px 0px 0px 147px
+
+#offWhite
+  display: inline-block
+  background-color: rgb(200,185,130)
+  height: 247px
+  width: 247px
+  border-radius: 0px 0px 297px 0px
+  box-sizing: border-box
+  position: relative
+  left: 60px
+  top: 55px
+  cursor: pointer
+  @media screen and (max-width: 600px) 
+    height: 197px
+    width: 197px
+    border-radius: 0px 0px 247px 0px
+  @media screen and (max-width: 500px) 
+    height: 147px
+    width: 147px
+    border-radius: 0px 0px 197px 0px
+  @media screen and (max-width: 400px) 
+    height: 97px
+    width: 97px
+    border-radius: 0px 0px 157px 0px
+    
+h1
+  position: absolute
+  
+#middle
+  position: absolute
+  background-color: rgb(150,140,120)
+  height: 300px
+  width: 300px
+  border-radius: 150px
+  top: 150px
+  left: 155px
+  @media screen and (max-width: 600px) 
+    height: 250px
+    width: 250px
+    border-radius: 175px 
+    left: 130px
+    top: 125px
+  @media screen and (max-width: 500px) 
+    height: 200px
+    width: 200px
+    border-radius: 100px
+    left: 105px
+    top: 100px
+  @media screen and (max-width: 400px) 
+    height: 120px
+    width: 120px
+    border-radius: 60px
+    left: 95px
+    top: 90px
